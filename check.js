@@ -10,10 +10,10 @@ const to_subaccount = SubAccount.fromPrincipal(
 ).toUint8Array();
 
 const account = {
-  owner: Principal.fromText("f25or-jiaaa-aaaaq-aaceq-cai"), // NTN Swap canister
-  // https://dashboard.internetcomputer.org/canister/f25or-jiaaa-aaaaq-aaceq-cai
+  owner: Principal.fromText("ipcky-iqaaa-aaaaq-aadma-cai"), // WTN Swap canister
+  // https://dashboard.internetcomputer.org/canister/ipcky-iqaaa-aaaaq-aadma-cai
 
   subaccount: to_subaccount,
 };
 
-console.log("Text account ", encodeIcrcAccount(account));
+console.log("Text account: ", encodeIcrcAccount(account));
